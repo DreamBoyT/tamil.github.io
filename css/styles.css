@@ -1,0 +1,140 @@
+.top-container {
+  background-color: #E9F8F9;
+  padding-top: 100px;
+  position: relative;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  margin-bottom: 0;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 0;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: monospace;
+  font-family: 'Merriweather', serif;
+}
+
+.topcloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.tamil {
+  margin-top: 40px;
+  border-radius: 100%;
+  width: 8%;
+}
+
+.web-dev {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  background-color: #89C4E1;
+}
+
+.chess {
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  background-color: #FCFFE7;
+}
+
+.footer-link {
+  color: #11999E;
+  padding: 35px;
+  position: relative;
+  top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: white;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-bottom-style: dotted;
+  border-color: #ECECEC;
+  border-width: 10px;
+  width: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 100px;
+}
+
+.copyright {
+  margin-bottom: 0;
+  padding: 50px;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  background: #45b5b1;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 40px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
